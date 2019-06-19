@@ -1,0 +1,29 @@
+{
+  "name": "silver",
+  "version": "1.0.0",
+  "description": "Silver Bars Marketplace API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elabeca/silver.git"
+  },
+  "keywords": [
+    "silver",
+    "market"
+  ],
+  "author": "Elie Labeca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elabeca/silver/issues"
+  },
+  "homepage": "https://github.com/elabeca/silver#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
