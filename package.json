@@ -2,9 +2,9 @@
   "name": "silver",
   "version": "1.0.0",
   "description": "Silver Bars Marketplace API",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,19 @@
   },
   "homepage": "https://github.com/elabeca/silver#readme",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "jest": "^24.8.0",
+    "mongodb": "^3.2.7",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
-    "koa": "^2.7.0"
+    "@koa/cors": "^2.2.3",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-mongo": "^1.8.1",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.11"
   }
 }
